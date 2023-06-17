@@ -354,7 +354,7 @@ class menuSkill extends Phaser.Scene {
             this.selection.setPosition(256, 64 + 8 * 32);
             this.selectionDetail.setTexture('slime');
             this.name = 'SLIME';
-            this.description = 'Can pass through grilles \n                1 use \n               input : F';
+            this.description = 'Can pass through fences \n                1 use \n               input : F';
             this.cost = this.costSlime;
         }
         if (this.selectionActive == 5) { // GO
